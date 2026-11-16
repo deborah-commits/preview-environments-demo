@@ -6,7 +6,7 @@ from flask import Flask, abort, redirect, render_template_string, request
 from psycopg.rows import dict_row
 
 # For the video's pull request, change these two values.
-APP_TITLE = "PR preview task board"
+APP_TITLE = "Updated PR preview task board"
 ACCENT = "#087f8c"
 
 app = Flask(__name__)
