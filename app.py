@@ -5,9 +5,8 @@ import psycopg
 from flask import Flask, abort, redirect, render_template_string, request
 from psycopg.rows import dict_row
 
-# For the video's pull request, change these two values.
-APP_TITLE = "Team task board"
-ACCENT = "#635bff"
+APP_TITLE = "PR preview task board"
+ACCENT = "#087f8c"
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 8192
